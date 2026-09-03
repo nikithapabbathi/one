@@ -3,14 +3,14 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <title>NexusShop · friendly store</title>
+    <title>NexusShop · lavender theme</title>
 
     <!-- Fonts & Icons -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400..700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 
     <style>
-        /* ----- reset & base (softer, friendlier) ----- */
+        /* ----- reset & base (lavender theme) ----- */
         * {
             box-sizing: border-box;
             margin: 0;
@@ -18,19 +18,19 @@
         }
 
         :root {
-            --bg: #f4f2ed;
+            --bg: #f6f2fa;
             --surface: #ffffff;
             --card: #ffffff;
-            --primary: #1f2a3e;
-            --soft-accent: #b8a6a0;
-            --accent: #b47b6e;
-            --accent-light: #ebdbd6;
-            --accent-dark: #946157;
-            --muted: #6b6a7a;
-            --muted-light: #b0aebd;
-            --success: #4c8b7c;
-            --shadow: 0 8px 28px rgba(0, 0, 0, 0.03), 0 2px 8px rgba(0, 0, 0, 0.02);
-            --shadow-hover: 0 18px 40px rgba(31, 42, 62, 0.07);
+            --primary: #2b1f3a;
+            --soft-accent: #d7c9e3;
+            --accent: #b392d0;
+            --accent-light: #ede6f5;
+            --accent-dark: #8f6fb0;
+            --muted: #6b5f7a;
+            --muted-light: #b0a6bd;
+            --success: #6b9c8a;
+            --shadow: 0 8px 28px rgba(43, 31, 58, 0.04), 0 2px 8px rgba(43, 31, 58, 0.02);
+            --shadow-hover: 0 18px 40px rgba(43, 31, 58, 0.08);
             --radius: 20px;
             --radius-sm: 12px;
             --transition: 0.2s ease;
@@ -94,12 +94,12 @@
             background: var(--accent-dark);
             border-color: var(--accent-dark);
             transform: translateY(-2px);
-            box-shadow: 0 8px 20px rgba(180, 123, 110, 0.25);
+            box-shadow: 0 8px 20px rgba(179, 146, 208, 0.30);
         }
 
         .btn-outline {
             background: transparent;
-            border-color: rgba(31, 42, 62, 0.15);
+            border-color: rgba(43, 31, 58, 0.15);
             color: var(--primary);
         }
 
@@ -126,7 +126,7 @@
             font-size: 13px;
         }
 
-        /* ----- header (friendly, airy) ----- */
+        /* ----- header (lavender accents) ----- */
         header {
             position: sticky;
             top: 0;
@@ -134,7 +134,7 @@
             background: rgba(255, 255, 255, 0.8);
             backdrop-filter: blur(12px);
             -webkit-backdrop-filter: blur(12px);
-            border-bottom: 1px solid rgba(31, 42, 62, 0.04);
+            border-bottom: 1px solid rgba(43, 31, 58, 0.04);
         }
 
         .header-inner {
@@ -246,7 +246,7 @@
 
         .search-wrap:focus-within {
             border-color: var(--accent);
-            box-shadow: 0 0 0 5px rgba(180, 123, 110, 0.08);
+            box-shadow: 0 0 0 5px rgba(179, 146, 208, 0.12);
         }
 
         .search-wrap input {
@@ -311,13 +311,13 @@
             background: var(--accent-light);
         }
 
-        /* ----- hero (friendly, bright) ----- */
+        /* ----- hero (lavender overlay) ----- */
         .hero {
             position: relative;
             padding: 52px 0;
             margin: 16px 24px 0;
             border-radius: var(--radius);
-            background: linear-gradient(140deg, #1f2a3e 0%, #2f3c54 100%);
+            background: linear-gradient(140deg, #2b1f3a 0%, #3d2a54 100%);
             overflow: hidden;
         }
 
@@ -326,7 +326,7 @@
             position: absolute;
             inset: 0;
             background: url('https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?auto=format&fit=crop&w=1400&q=80') center/cover no-repeat;
-            opacity: 0.25;
+            opacity: 0.20;
             z-index: 0;
         }
 
@@ -337,8 +337,8 @@
 
         .hero .badge {
             display: inline-block;
-            background: rgba(212, 140, 124, 0.2);
-            color: #f2ddd7;
+            background: rgba(179, 146, 208, 0.25);
+            color: #e4d7f0;
             padding: 4px 18px;
             border-radius: 60px;
             font-weight: 600;
@@ -412,7 +412,7 @@
             color: var(--accent-dark);
         }
 
-        /* categories (friendly cards) */
+        /* categories (lavender cards) */
         .categories-grid {
             display: grid;
             grid-template-columns: repeat(6, 1fr);
@@ -465,7 +465,7 @@
             margin-top: 4px;
         }
 
-        /* products (friendlier) */
+        /* products (lavender friendly) */
         .products-grid {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
@@ -795,9 +795,9 @@
             color: var(--muted);
         }
 
-        /* newsletter */
+        /* newsletter (lavender gradient) */
         .newsletter-wrap {
-            background: linear-gradient(145deg, #1f2a3e, #2d3a52);
+            background: linear-gradient(145deg, #2b1f3a, #3d2a54);
             border-radius: var(--radius);
             padding: 44px 48px;
             color: #fff;
@@ -834,7 +834,7 @@
             border-radius: 60px;
             border: 0;
             font-size: 15px;
-            background: rgba(255, 255, 255, 0.1);
+            background: rgba(255, 255, 255, 0.10);
             color: #fff;
             outline: 2px solid transparent;
             transition: var(--transition);
@@ -872,7 +872,7 @@
         footer {
             margin-top: 12px;
             padding: 40px 0 24px;
-            border-top: 1px solid rgba(31, 42, 62, 0.04);
+            border-top: 1px solid rgba(43, 31, 58, 0.04);
         }
 
         .footer-grid {
@@ -938,7 +938,7 @@
         .footer-bottom {
             text-align: center;
             padding-top: 18px;
-            border-top: 1px solid rgba(31, 42, 62, 0.04);
+            border-top: 1px solid rgba(43, 31, 58, 0.04);
             color: var(--muted-light);
             font-size: 13px;
         }
@@ -1550,7 +1550,7 @@
             }
         });
 
-        console.log('✨ NexusShop — friendly e‑commerce loaded.');
+        console.log('✨ NexusShop — lavender theme loaded.');
     </script>
 </body>
 </html>
