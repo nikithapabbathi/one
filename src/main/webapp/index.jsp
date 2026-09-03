@@ -18,17 +18,17 @@
         }
 
         :root {
-            --bg: #f6f5f2;
+            --bg: #f4f2ed;
             --surface: #ffffff;
             --card: #ffffff;
             --primary: #1f2a3e;
-            --soft-accent: #d48c7c;
-            --accent: #c77a6a;
-            --accent-light: #f2ddd7;
-            --accent-dark: #a8604f;
+            --soft-accent: #b8a6a0;
+            --accent: #b47b6e;
+            --accent-light: #ebdbd6;
+            --accent-dark: #946157;
             --muted: #6b6a7a;
             --muted-light: #b0aebd;
-            --success: #479f8f;
+            --success: #4c8b7c;
             --shadow: 0 8px 28px rgba(0, 0, 0, 0.03), 0 2px 8px rgba(0, 0, 0, 0.02);
             --shadow-hover: 0 18px 40px rgba(31, 42, 62, 0.07);
             --radius: 20px;
@@ -94,7 +94,7 @@
             background: var(--accent-dark);
             border-color: var(--accent-dark);
             transform: translateY(-2px);
-            box-shadow: 0 8px 20px rgba(199, 122, 106, 0.25);
+            box-shadow: 0 8px 20px rgba(180, 123, 110, 0.25);
         }
 
         .btn-outline {
@@ -246,7 +246,7 @@
 
         .search-wrap:focus-within {
             border-color: var(--accent);
-            box-shadow: 0 0 0 5px rgba(199, 122, 106, 0.08);
+            box-shadow: 0 0 0 5px rgba(180, 123, 110, 0.08);
         }
 
         .search-wrap input {
